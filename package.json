@@ -1,0 +1,45 @@
+{
+  "name": "express-api-template-1",
+  "version": "1.0.0",
+  "description": "Minimal starter project for a Node.js RESTful API based off express generator",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "2.6.6",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "lint:fix": "eslint ./src/server.js --fix",
+    "fix:other": "yarn prettier --write \"./**/*.{js,json}\"",
+    "fix:code": "yarn test:code --fix",
+    "fix": "yarn fix:code && yarn fix:other",
+    "test:code": "eslint --ignore-path .gitignore --ignore-path .prettierignore --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KASKUSTTV/express-api-template.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "KASKUSTTV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KASKUSTTV/express-api-template/issues"
+  },
+  "homepage": "https://github.com/KASKUSTTV/express-api-template#readme"
+}

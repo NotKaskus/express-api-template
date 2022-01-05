@@ -1,0 +1,8 @@
+# Node Modules
+node_modules/
+
+# env module
+.env
+
+# use yarn npm sucks
+package-lock.json
