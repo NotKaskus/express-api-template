@@ -25,13 +25,8 @@ https://github.com/KASKUS/express-api-template.git
 
 ## How To run
 
-### copy environment variable
 
-```sh
-cp .env-sample .env
-```
-
-### run manualy
+### Run manualy
 
 * via yarn or npm :
 
