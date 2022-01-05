@@ -4,8 +4,9 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/firmanJS)
 [![GitHub license](https://img.shields.io/github/license/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![GitHub pull-requests](https://img.shields.io/github/forks/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square.svg)](http://makeapullrequest.com)
 
 ## How To use
 Clone this repository via https:
