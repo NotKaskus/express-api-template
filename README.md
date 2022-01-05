@@ -1,9 +1,16 @@
 # Express  Template Boillerplate RestfullApi
+[![made-with-nodejs](https://img.shields.io/badge/Made%20with-Nodejs-1f425f.svg)](https://nodejs.org)
+[![made-with-expressjs](https://img.shields.io/badge/Made%20with-Expressjs-1f425f.svg)](https://expressjs.com/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/firmanJS)
+[![GitHub license](https://img.shields.io/github/license/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues/KASKUSTTV/express-api-template.svg)](https://github.com/KASKUS/express-api-template/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## How To use
 Clone this repository via https:
 ```bash
-https://github.com/firmanJS/express-template.git
+https://github.com/KASKUS/express-api-template.git
 ```
 
 ## Core Stack
