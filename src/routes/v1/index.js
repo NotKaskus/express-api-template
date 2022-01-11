@@ -8,6 +8,7 @@ router.get('/', (req, res) => {
 	});
 });
 
-router.use('/info', require('./information/index'));
+router.use('/info', require('./info/index'));
+router.use('/canvas', require('./canvas/index'))
 
 module.exports = router;
