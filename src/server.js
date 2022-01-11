@@ -1,6 +1,6 @@
 const app = require('./app');
-const config = require('./config/settings');
+const settings = require('./config/settings');
 
-app.listen(config.port, () => {
-	console.log('Test Server Listening On ')
+app.listen(settings.port, () => {
+	console.log('Test Server Is Ready')
 });
