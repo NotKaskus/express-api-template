@@ -5,6 +5,7 @@ global.setting = require('./config/settings');
 const express = require('express');
 const compress = require('compression')
 const helmet = require('helmet');
+const methodOverride = require('method-override')
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
