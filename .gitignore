@@ -3,6 +3,10 @@ node_modules/
 
 # env module
 .env
+admin.txt
+
+# replit config
+.replit
 
 # use yarn npm sucks
 package-lock.json
