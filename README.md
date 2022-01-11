@@ -32,7 +32,7 @@ https://github.com/KASKUS/express-api-template.git
 
 ```sh
 # install package
-npm install or yarn add
+npm install or yarn install
 
 #  running app
 npm run start or yarn run start
