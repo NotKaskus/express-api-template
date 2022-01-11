@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
 			}
 		]
 	});
-	const response = await fetch(`https://kitsu.io/api/edge/anime?filter[text]=${req.query.anime}&page[limit]=1`)
+	await fetch(`https://kitsu.io/api/edge/anime?filter[text]=${req.query.anime}&page[limit]=1`)
 	.then(res => res.json())
     .then(body => res.status(200).json(body))
 	.catch(function(e) {

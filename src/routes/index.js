@@ -1,13 +1,10 @@
 const router = require('express').Router();
 
 router.get('/', (req, res) => {
-	res.status(200).json({
-		message: 'Hello World',
-		status: req.statusCode,
-	});
+	res.status(200).send('Hello world from, home page')
 });
 
-router.use('/api', require('./api/index'));
-router.use('/admin', require('./admin/index'));
+// Api routes
+router.use('/api/v1', require('./v1/index'));
 
 module.exports = router;

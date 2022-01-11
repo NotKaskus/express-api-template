@@ -1,6 +1,6 @@
 {
   "name": "express-api-template-1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Minimal starter project for a Node.js RESTful API based off express generator",
   "main": "index.js",
   "devDependencies": {
