@@ -1,6 +1,9 @@
 # Node Modules
 node_modules/
 
+# sqlite files
+*.sqlite
+
 # env module
 .env
 admin.txt
