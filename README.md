@@ -49,8 +49,8 @@ npm run dev or yarn run dev
 	└── middleware          * all file handlers here
 	└── routes/           	* all file route here
 	|   └── index.js        * register all route
-	|   └── admin/        	* register all admin route
-	|   └── api/      	  	* register all api route
-	|      └── info/     	* register all info route
+	|   └── v1/      	        * register all api route
+	|      └── canvas/     	        * all the canvas routes
+	|      └── info/     	                * all the info routes
 	└── utils/            	* all utils file here
 ```
