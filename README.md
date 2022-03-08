@@ -43,14 +43,17 @@ npm run dev or yarn run dev
 
 ## Project Structure
 ```
-├── src/                  	* all source code in here
-	└── config/           	* all configuration file here
-	|  └── settings.js          	* configuration database
+├── src/                  	 * all source code in here
+	└── config/           	 * all configuration file here
+	|  └── settings.js      * configuration database
 	└── middleware          * all file handlers here
-	└── routes/           	* all file route here
-	|   └── index.js        * register all route
-	|   └── v1/      	        * register all api route
-	|      └── canvas/     	        * all the canvas routes
+	└── routes/           	 * all file route here
+	|   └── index.js            	* register all route
+	|   └── v1/      	    	* register all api route
+	|      └── canvas/          	    	* all the canvas routes
 	|      └── info/     	                * all the info routes
-	└── utils/            	* all utils file here
+	|      └── index.js     	        * register canvas and info routes to api route
+	└── app.js/           	 * the entry point of the Express application
+	└── server.js            * this file starts your web server.
+	└── utils/            	 * all utils file here
 ```
