@@ -45,9 +45,8 @@ npm run dev or yarn run dev
 ```
 ├── src/                  	* all source code in here
 	└── config/           	* all configuration file here
-	|  └── db.js          	* configuration database
-	└── database/         	* all models schema file here
-	└── core/         	  	* all file handlers here
+	|  └── settings.js          	* configuration database
+	└── middleware          * all file handlers here
 	└── routes/           	* all file route here
 	|   └── index.js        * register all route
 	|   └── admin/        	* register all admin route
