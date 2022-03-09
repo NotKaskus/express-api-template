@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KASKUSTTV/express-api-template.git"
+    "url": "git+https://github.com/NotKaskus/express-api-template.git"
   },
   "keywords": [
     "nodejs"
@@ -44,7 +44,7 @@
   "author": "KASKUSTTV",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KASKUSTTV/express-api-template/issues"
+    "url": "https://github.com/NotKaskus/express-api-template/issues"
   },
-  "homepage": "https://github.com/KASKUSTTV/express-api-template#readme"
+  "homepage": "https://github.com/NotKaskus/express-api-template#readme"
 }
